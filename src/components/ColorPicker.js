@@ -40,7 +40,7 @@ class ColorPicker extends Component {
     const posX = e.pageX - this.canvas.offsetLeft;
     const posY = e.pageY - this.canvas.offsetTop;
 
-    // ignore when mouse clicks on border of canvas
+    // ignore mouse clicks on border of canvas
     if (posX < 0 || posY < 0) return;
 
     const h = 0;
