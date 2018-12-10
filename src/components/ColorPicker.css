@@ -1,0 +1,41 @@
+.container{
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 100vh;
+  align-items: center;
+  justify-items: center;
+}
+
+
+.divTable {
+  display: table;
+  border: 1px solid #999;
+  width: 101px;
+}
+
+.divTableRow {
+  display: table-row;
+}
+
+.divTableHeading {
+  display: table-header-group;
+}
+
+.divTableCell, .divTableHead {
+  display: table-cell;
+  border: 0px solid #999;
+  padding: 0;
+}
+
+.divTableHeading {
+  display: table-header-group;
+  font-weight: bold;
+}
+
+.divTableFoot {
+  display: table-footer-group;
+}
+
+.divTableBody {
+  display: table-row-group;
+}
